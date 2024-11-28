@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root,
+#root {
+  --dark-bluewood: #1a252f;
+  --bluewood: #2c3e50;
+  --mountain-meadow: #1abc9c;
+  --vibrant-blue: rgba(13, 109, 253, 0.25);
+
+  --main: var(--bluewood);
+  --dark-main: var(--dark-bluewood);
+  --accent: var(--mountain-meadow);
+  --sec: var(--vibrant-blue);
+}
